@@ -1,15 +1,16 @@
 "use strict"
 
 // dependencies
+
 const fs = require('fs'),
     querystring = require('querystring'),
     axios = require('axios'),
     async = require('async'),
-        dotenv = require('dotenv');
+    dotenv = require('dotenv');
 
 // TAMU api key
 dotenv.config();
-const API_KEY = ;
+const API_KEY = '4774872c6a2e4681b7007e7b2985deab';
 const API_URL = 'https://geoservices.tamu.edu/Services/Geocode/WebService/GeocoderWebServiceHttpNonParsed_V04_01.aspx'
 
 // geocode addresses
